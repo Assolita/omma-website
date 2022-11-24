@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body {
+    color: white;
+    /* margin: auto; */
+}
+
+header {
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgba(255, 160, 0, 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 28px;
+    color: white;
+}
+
+main {
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+main #left h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFA000;
+
+}
+main #left img {
+    margin: 28px 0;
+}
+
+main .imgdn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-bottom: 60px;
+}
+
+main #left .imgdn p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #176902;
+    border: 2px solid #176902;
+    border-radius: 47px;
+    padding: 7px 25px;
+    
+}
+main #left ul {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+    list-style: none;
+    
+}
+
+main #left .video p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+main #left .video {
+    margin-bottom: 70px;
+}
+
+main #left .preparo {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 600px;
+    margin-bottom: 150px;
+}
+
+main #right {
+    margin-top: 60px;
+}
+
+main #right h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color:#FFA000;
+    margin-bottom: 28px;
+}
+
+main #right div{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+main #right p {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    padding: 10px 0 20px;
+}
+footer {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+footer a {
+    margin-right: 50px;
+    vertical-align: middle;}

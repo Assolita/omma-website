@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    /* width: 1440px;
+    margin: auto; */
+
+}
+
+header {
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgba(255, 160, 0, 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 28px;
+}
+
+main {
+    max-width: 1300px;
+    margin: 120px auto;
+    
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFA000;
+    width: 462px;
+    margin: 0px auto 70px;
+    
+}
+
+main #todas-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+main #todas-receitas div {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+main #todas-receitas p{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color:black;
+    margin: 10px 0 15px 0;
+}
+
+main #todas-receitas a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #176902;
+    padding: 10px 42.5px 10px 42.5px;
+}a:hover {opacity: 0.8;}
+
+footer {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+footer a {
+    margin-right: 50px;
+    vertical-align: middle;}

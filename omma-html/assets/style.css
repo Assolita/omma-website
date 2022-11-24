@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    color: white;
+    /* width: 1440px;
+    margin: auto; */
+}
+
+header {
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgba(255, 160, 0, 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 28px;
+}
+
+main {
+    
+}
+
+main #heroheader {
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)),
+    url(./img/heroimage.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 638px;
+    display: flex;
+    justify-content:end;  
+
+}
+
+main #heroheader h2 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    width: 370px;
+    margin: 166px 101px 300px 969px;
+    
+    
+}
+
+
+main #receitas-da-semana {
+    margin: 74px;
+}
+
+main #receitas-da-semana h2 {
+    color: rgba(255, 160, 0, 1);
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+}
+
+main #receitas-da-semana ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+main #receitas-da-semana #prato {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ main #receitas-da-semana #prato .prato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+ }
+
+main #receitas-da-semana #prato .prato p {
+    color: black;
+    width: 345px;
+    height: 32px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 10px 0 15px 0;
+}
+
+main #receitas-da-semana #prato .prato a {
+    background-color: rgba(23, 105, 2, 1);
+    padding: 10px 42.5px 10px 42.5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    cursor:pointer;
+} a:hover {opacity: 0.8;}
+
+main #comer-e-viver {
+    background: linear-gradient(0deg, rgba(255, 193, 7, 0.4), rgba(255, 193, 7, 0.4)),
+    url(./img/image\ 2.png);
+    height: 772px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 163px 153px 993px;
+    
+}
+main #comer-e-viver div {
+    
+
+}
+
+main #comer-e-viver h2{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    padding: 163px 0 73px 0;
+}
+
+main #comer-e-viver p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 424px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+footer a {
+    margin-right: 50px;
+    vertical-align: middle;}
